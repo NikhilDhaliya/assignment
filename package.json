@@ -13,6 +13,7 @@
     "db:seed": "tsx prisma/seed.ts",
     "db:reset": "prisma migrate reset --force",
     "db:studio": "prisma studio",
+    "gcp-build": "prisma generate && tsc",
     "lint": "tsc --noEmit"
   },
   "prisma": {
