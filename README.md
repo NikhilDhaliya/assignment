@@ -1,6 +1,12 @@
-# Finance Backend API
-
 A production-grade backend for financial data processing and role-based access control, built with **Node.js**, **TypeScript**, **Express**, **Prisma 7**, and **SQLite**.
+
+---
+
+## Live API Link
+**API Base URL**: `https://assignment-1090357889526.asia-south1.run.app/api/v1`  
+**Health Check**: [https://assignment-1090357889526.asia-south1.run.app/health](https://assignment-1090357889526.asia-south1.run.app/health)
+
+> **Note for Evaluators**: This live API is deployed on **Google Cloud Run**. For demonstration purposes, the application is configured to automatically migrate and seed the SQLite database on startup. This ensures the API is always in a ready-to-test state with predefined credentials even in the ephemeral cloud environment.
 
 ---
 
