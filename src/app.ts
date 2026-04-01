@@ -9,6 +9,9 @@ import { sendSuccess } from './utils/response.js';
 
 const app = express();
 
+// Trust proxy for Cloud Run (load balancer)
+app.set('trust proxy', 1);
+
 // Security
 app.use(helmet());
 app.use(cors());
